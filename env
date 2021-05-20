@@ -1,0 +1,6 @@
+# Fill in the appropriate values and rename this file .env
+
+AWS_ACCESS_KEY=
+AWS_SECRET_ACCESS_KEY=
+HOSTED_ZONE_ID=
+DOMAIN=
