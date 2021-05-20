@@ -25,16 +25,16 @@ Edit the 'env' file to include the relevant values and rename the file '.env'
 
 run the script by calling 
 
-'''
+```bash
 python3 update_url.py
-'''
+```
 
 Confirm that Route53 has been updated.
 
 Setup crontab with:
 
-'''
+``bash
 * * * * * cd PATH_TO_DIR/ && python3 update_url.py >/dev/null 2>&1 
-'''
+```
 
 This will run the script every minute
