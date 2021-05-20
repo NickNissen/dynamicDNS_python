@@ -33,7 +33,7 @@ Confirm that Route53 has been updated.
 
 Setup crontab with:
 
-``bash
+```bash
 * * * * * cd PATH_TO_DIR/ && python3 update_url.py >/dev/null 2>&1 
 ```
 
